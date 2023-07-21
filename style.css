@@ -1,0 +1,111 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #dae3e1;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.header {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 22.5%;
+    width: 100%;
+    margin-bottom: 2em;
+    background-color: #8ae08e;
+    color: black;
+}
+#Greet_1 {
+    font-family: Arial;
+    font-size: xx-large;
+    align-items: center;
+    text-align: center;
+}
+#Greet_2 {
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    text-align: center;
+}
+.logo img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+'--margin-left: 10px;
+}
+
+.bodypart {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2em;
+    background-color: #dae3e1;
+}
+.block {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.vipblock {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.bpic img {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+
+'--margin-left: 10px;
+}
+.fullname {
+    font-family: Tahoma;
+    font-size: large;
+    margin-left: 2em;
+'--margin-right: 20px;
+'--flex-basis: 750px;
+}
+.knowledge {
+    display: flex;
+    justify-content: center;
+}
+#menu {
+    font-family: Arial;
+    font-size: xx-large;
+    align-items: center;
+    text-align: center;
+}
+.menup {
+    font-family: Calibri;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+}
+
+#anec {
+    font-family: Calibri;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 2em;
+
+}
+
+
+
+
+.footer {
+    border-radius: 10px;
+    background-color: #8ae08e;
+    flex: 0 0 auto;
+}
+
+
+
+
+
